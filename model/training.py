@@ -3,9 +3,9 @@ import tensorflow as tf
 from tensorflow.keras import layers ,models
 
 
-data_train_path = "Bone_Fracture_Binary_Classification/Bone_Fracture_Binary_Classification/train"
-data_test_path = "Bone_Fracture_Binary_Classification/Bone_Fracture_Binary_Classification/test"
-data_val_path = "Bone_Fracture_Binary_Classification/Bone_Fracture_Binary_Classification/val"
+data_train_path = "data/Bone_Fracture_Binary_Classification/train"
+data_test_path = "data/Bone_Fracture_Binary_Classification/test"
+data_val_path = "data/Bone_Fracture_Binary_Classification/val"
 
 img_width = 256
 img_height = 256
